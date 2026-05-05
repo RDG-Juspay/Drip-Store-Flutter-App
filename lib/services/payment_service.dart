@@ -5,9 +5,13 @@ import 'dart:io';
 import 'package:http/http.dart' as http;
 
 class PaymentService {
-  // Android emulator uses 10.0.2.2 to reach the host machine's localhost.
-  // For a physical device, replace with your machine's LAN IP (e.g. 192.168.1.x).
-  static const String _baseUrl = 'http://10.0.2.2:3001/api/payments';
+  // Android emulator → 10.0.2.2, iOS simulator → localhost.
+  // For a physical device on either platform, replace with your LAN IP.
+  static String get _baseUrl {
+    if (Platform.isIOS) return 'http://localhost:3001/api/payments';
+    return 'http://10.0.2.2:3001/api/payments';
+  }
+
   static const Duration _timeout = Duration(seconds: 15);
 
   /// Creates a Juspay payment session via the backend and returns

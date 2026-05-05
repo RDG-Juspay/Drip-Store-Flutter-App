@@ -22,8 +22,57 @@
 	<string>$(FLUTTER_BUILD_NAME)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>amzn-$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+				<string>juspay-$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+				<string>$(PRODUCT_BUNDLE_IDENTIFIER).cred</string>
+				<string>paytm-$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>gpay</string>
+		<string>credpay</string>
+		<string>phonepe</string>
+		<string>paytmmp</string>
+		<string>tez</string>
+		<string>paytm</string>
+		<string>bhim</string>
+		<string>myairtel</string>
+		<string>slice-upi</string>
+		<string>amazonpay</string>
+		<string>mobikwik</string>
+		<string>navipay</string>
+		<string>kiwi</string>
+		<string>super</string>
+		<string>tatadigital</string>
+		<string>ppe</string>
+		<string>popclubapp</string>
+		<string>postpe</string>
+		<string>jupiter</string>
+		<string>hdfcbanknb</string>
+		<string>aunb</string>
+		<string>imobileappnb</string>
+		<string>simplypayupi</string>
+		<string>tnupi</string>
+		<string>magnetapp</string>
+		<string>lxme</string>
+		<string>indmoney</string>
+		<string>whatsapp</string>
+		<string>canaraaipe</string>
+		<string>fpupi</string>
+		<string>devtools</string>
+		<string>cugext</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIApplicationSceneManifest</key>
