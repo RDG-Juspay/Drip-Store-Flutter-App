@@ -49,3 +49,8 @@ backend/node_modules/
 backend/.env
 backend/build/
 android/build/
+
+# Android signing — never commit
+android/key.properties
+android/app/*.jks
+android/app/*.keystore
