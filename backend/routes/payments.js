@@ -6,7 +6,7 @@ const crypto  = require('crypto');
 const router = express.Router();
 
 const MERCHANT_ID = 'iimkashipur';
-const CLIENT_ID   = 'onmobile';
+const CLIENT_ID   = 'aivo';
 
 // Normalise base URL — strip any path suffix the user may have included
 // (e.g. https://sandbox.juspay.in/session → https://sandbox.juspay.in)

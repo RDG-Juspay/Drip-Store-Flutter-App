@@ -1,1 +1,1 @@
-clientId = onmobile
+clientId = aivo

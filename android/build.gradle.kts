@@ -1,5 +1,5 @@
 // Required by the hypersdkflutter Gradle plugin — must be set before subproject evaluation
-extra["clientId"] = "onmobile"
+extra["clientId"] = "aivo"
 extra["hyperSDKVersion"] = "2.2.2"
 extra["excludedMicroSDKs"] = listOf<String>()
 

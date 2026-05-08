@@ -116,7 +116,7 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
             'payload': {
               'action': 'initiate',
               'merchantId': 'iimkashipur',
-              'clientId': 'onmobile',
+              'clientId': 'aivo',
               'environment': 'sandbox',
             },
           },
